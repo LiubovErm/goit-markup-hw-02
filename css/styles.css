@@ -16,7 +16,7 @@
     --accent-color:#2196F3;
     --primary-bg-color: #E5E5E5;
     --secondary-bg-color:#F5F4FA;
-    --herofooter-bg-color:#2F303A;
+    --hero-bg-color:#2F303A;
 }
 
 body {
@@ -31,7 +31,7 @@ body {
     list-style: none;
 }
 .bluelogo {
-    color:var(--accent-color)
+    color:var(--accent-color);
 }
 .logo {
     font-weight: 700;
@@ -52,12 +52,12 @@ body {
 }
 .navigation-link:hover,
 .navigation-link:focus {
-    color: var(--accent-color)
+    color: var(--accent-color);
 }
 
 .contact:hover,
 .contact:focus {
-    color: var(--accent-color)
+    color: var(--accent-color);
 }
 
 .phone, .mail {
@@ -102,4 +102,79 @@ body {
     display: flex;
     flex-direction: row;
 }
+.benefits-title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.benefits-text {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+.section-title {
+    color:var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 
+.team {
+    background-color: var(--secondary-bg-color);
+}
+.title {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+.text {
+    color:var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+.footer {
+    background-color: var(--hero-bg-color);
+}
+.addresslink-footer {
+    color: var(--white-color);
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.mail-footer, .phone-footer {
+    color:var(--color-text-footer);
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+address {
+    font-style: normal;
+}
+.logofooter {
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color:var(--white-color);
+    text-decoration: none;
+}
+.phone-footer:hover,
+.phone-footer:focus {
+    color: var(--accent-color);
+}
+.mail-footer:hover,
+.mail-footer:focus {
+    color: var(--accent-color);
+}
