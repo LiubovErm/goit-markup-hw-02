@@ -5,6 +5,101 @@
 /* колір акценту - #2196F3 */
 /* колір фону 1 - #E5E5E5 */
 /* колір фону 2 - #F5F4FA */
-/* колір фону 3 - #2F303A */
+/* колір фону herofooter - #2F303A */
 /* шрифти - Roboto, Raleway */
+
+:root {
+    --primary-text-color:#212121 ;
+    --secondary-text-color: #757575;
+    --white-color:#FFFFFF;
+    --color-text-footer:rgba(255, 255, 255, 0.6);
+    --accent-color:#2196F3;
+    --primary-bg-color: #E5E5E5;
+    --secondary-bg-color:#F5F4FA;
+    --herofooter-bg-color:#2F303A;
+}
+
+body {
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+}
+.header {
+    background-color: var(--white-color);
+    
+}
+.list {
+    list-style: none;
+}
+.bluelogo {
+    color:var(--accent-color)
+}
+.logo {
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color:var(--primary-text-color);
+    text-decoration: none;
+}
+.navigation-link {
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;  
+    color:var(--primary-text-color);
+    margin: 50px;
+}
+.navigation-link:hover,
+.navigation-link:focus {
+    color: var(--accent-color)
+}
+
+.contact:hover,
+.contact:focus {
+    color: var(--accent-color)
+}
+
+.phone, .mail {
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;  
+    color:var(--secondary-text-color);
+}
+.hero {
+    background-image: url(../images/bg.jpg);
+    padding: 200px 452px 200px 452px;
+    background-size: auto;
+}
+
+.hero-title {
+    color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.reserv {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    padding: 10px 32px;
+    margin: 0 auto;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+}
 
