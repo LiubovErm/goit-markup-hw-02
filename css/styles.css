@@ -249,6 +249,7 @@ address {
     letter-spacing: 0.03em;
     border: 0px;
     padding: 6px 32px;
+    margin: 8px;
 }
 
 .button:hover,
@@ -259,4 +260,35 @@ address {
 .filter {
     display: flex;
     justify-content: center; 
+}
+.itemsprojects {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 56px 215px 94px 215px;
+    justify-content: center; 
+    gap: 30px;
+    background-color: var(--white-color);
+}
+.projectcontainer {
+    border: 1px solid #EEEEEE;
+    flex-basis: 370px;
+}
+.portfolio {
+    background-color: var(--primary-bg-color);
+}
+.project-title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    padding: 12px 24px 1px 24px;
+}
+.project-text {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    padding: 1px 24px 12px 24px;
 }
