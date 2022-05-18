@@ -41,6 +41,8 @@ body {
     letter-spacing: 0.03em;
     color:var(--primary-text-color);
     text-decoration: none;
+    padding: 24px 93px 2px 215px;
+    height: 31px;
 }
 .navigation-link {
     text-decoration: none;
@@ -50,6 +52,7 @@ body {
     color:var(--primary-text-color);
     margin: 50px;
 }
+
 .navigation-link:hover,
 .navigation-link:focus {
     color: var(--accent-color);
@@ -58,6 +61,11 @@ body {
 .contactphone:hover,
 .contactphone:focus {
     color: var(--accent-color);
+}
+
+.contactmail:hover,
+.contactmail:focus {
+    color: var(--accent-color)
 }
 
 .contactphone, 
@@ -102,7 +110,8 @@ body {
 }
 .navigation {
     display: flex;
-    flex-direction: row;
+    height: 80px;
+    text-align: center;
 }
 .benefits-title {
     color: var(--primary-text-color);
@@ -222,6 +231,9 @@ address {
 }
 .contact {
     display: flex;
-    padding: 32px 215px 32px 331px;
+    padding: 32px 215px 32px 150px;
     margin: 0px;
+}
+.footer {
+    padding: 60px 1154px 60px 215px;
 }
