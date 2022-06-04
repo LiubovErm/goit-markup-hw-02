@@ -18,7 +18,6 @@
     --secondary-bg-color:#F5F4FA;
     --hero-bg-color:#2F303A;
 }
-
 body {
     font-family: "Roboto",sans-serif;
     font-size: 14px;
@@ -44,7 +43,6 @@ body {
     letter-spacing: 0.03em;
     color:var(--primary-text-color);
     text-decoration: none;
-    /* padding: 24px 93px 2px 215px; */
 }
 .navigation-link {
     text-decoration: none;
@@ -53,7 +51,6 @@ body {
     letter-spacing: 0.02em; 
     color:var(--primary-text-color);
     margin: 25px;
-    /* padding: 32px 0 0 0; */
 }
 .navigation-items {
     display: flex;
@@ -100,10 +97,6 @@ body {
     padding: 10px 32px;
     margin: 0 auto;
 }
-/* .navigation { */
-    /* display: flex; */
-    /* text-align: center;} */
-
 .benefits-subtitle {
     color: var(--primary-text-color);
     font-weight: 700;
@@ -171,7 +164,6 @@ address {
 .ourbenefits {
     display: flex;
     justify-content: center;
-    padding: 0 215px 0 215px;
 }
 .aboutusimg {
     margin: 15px;
@@ -203,12 +195,6 @@ address {
 }
 .contact {
     display: flex;}
-
-    /* padding: 32px 215px 32px 150px; */
-    /* margin: 0px;} */
-    /* .footer { */
-    /* padding: 60px 1154px 60px 215px;} */
-
 .button {
     background-color: var(--secondary-bg-color);
     color:var(--primary-text-color);
@@ -251,14 +237,12 @@ address {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    padding: 12px 24px 1px 24px;
 }
 .project-text {
     color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    padding: 1px 24px 12px 24px;
 }
 .reserv, .button {
     cursor: pointer;
